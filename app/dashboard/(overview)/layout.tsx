@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from '@/app/ui/dashboard/(main-view)/Header'
-import Footer from '@/app/ui/dashboard/(main-view)/Footer'
+import { Footer } from '@/app/ui/dashboard/(main-view)/footer/Footer'
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
